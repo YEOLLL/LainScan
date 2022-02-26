@@ -140,7 +140,7 @@ class LainScan:
 
 # 解析自定义请求头，并与默认请求头合并
 def parse_headers(headers: list):
-    custom_headers = dict([header.split(':') for header in headers])
+    custom_headers = {k: v for k, v in [header.split(':', 1) for header in headers]}
     return {**DEFAULT_HEADERS, **custom_headers}
 
 
