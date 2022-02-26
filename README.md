@@ -103,3 +103,12 @@ python lainscan.py -U 'http://example.com/' -W './words.txt' --custom-code 404
 ```commandline
 python lainscan.py -U 'http://example.com/' -W './words.txt' --custom-code 404 --custom-code 503
 ```
+
+## TODO
+* 请求异常捕获
+* 根据返回状态启停
+* 随机 UA
+* 结果保存
+
+## 致谢
+[Dirscan](https://github.com/j3ers3/Dirscan) 为结果输出部分提供参考
