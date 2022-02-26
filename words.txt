@@ -1,3 +1,4 @@
 test
 admin
 manage
+index.php
